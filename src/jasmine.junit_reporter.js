@@ -117,7 +117,7 @@
             var suites = runner.suites();
             for (var i = 0; i < suites.length; i++) {
                 var suite = suites[i];
-                var fileName = 'TEST-' + this.getFullName(suite, true) + '.xml';
+                var fileName = 'JASMINE-TEST-' + this.getFullName(suite, true) + '.xml';
                 var output = '<?xml version="1.0" encoding="UTF-8" ?>';
                 // if we are consolidating, only write out top-level suites
                 if (this.consolidate && suite.parentSuite) {
